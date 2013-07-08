@@ -1,23 +1,26 @@
+puts "What's your name?"
+puts "Where are you from?"
+puts "Hobbies?"
+puts "What do you want to get out of codefellows?"
 questions = [ "What is your favorite food?",
   "What is your favorite animal? List three adjectives to explain your choice",
   "It's a hot muggy day. What would you choose to refresh your thirst and why?",
   "If you could be one for just 24 hours, what cereal box cartoon character would you be? Why?",
-  "What was the best thing that happened to you this weekend? (used August 23, 1998)",
+  "What was the best thing that happened to you this weekend?",
   "What is your favorite animal? List three adjectives to explain your choice.",
   "What is your favorite color? List three adjectives to explain your choice.",
   "It's a very hot and muggy day. You desperately want something very cool and refreshing to quench your thirst and revitalize your body. What would you drink -- either make your own or store-bought.",
   "You discover that the person you're head-over-heels interested in loves a good homemade & handmade dessert. What will you concoct when you have this person over?",
-  "What would you leave in your will for the person you care about the most?",
   "What do you consider to the most valuable thing you own: when you were a child/teenager/now?",
   "What's the kindest act you have ever seen done (either to/by you or another)?",
-  "If you could have any job in the world, which one would you want? (used September 27, 1998)",
+  "If you could have any job in the world, which one would you want?",
   "What were your best/worst subjects in school and what subjects would you want to learn now?",
-  "What are you most talented at? What is your worst nightmare today?",
+  "What are you most talented at?",
+  "What is your worst nightmare today?",
   "How often do you clean between your toes?",
   "What is your favorite way to waste time at work without getting caught?",
   "If you could have had the starring role in one film already made, which movie would you pick?",
-  "If you were to perform in the circus, what would you do? (used September 13, 1998)",
-  "If you could eliminate one thing you do each day in the bathroom so that you never had to do it again, what would it be?",
+  "If you were to perform in the circus, what would you do?",
   "You were just given a yacht. What would you name it?",
   "If you could have been told one thing that you weren't told when you were a teenager, what would you like to have heard?",
   "You've just been hired to a promotions position at Kellog Co. What would you put in a new breakfast cereal box as a gimmick?",
@@ -26,9 +29,9 @@ questions = [ "What is your favorite food?",
   "If you were to get a tattoo, what would it say or what would the graphic be?",
   "If you could play any musical instrument, what would it be and why? If you already play an instrument(s), what do you play and why?",
   "When trick-or-treating as a kid, was there any kind of candy that you didn't like to get?",
-  "Why do you live in the Washington DC area?",
-  "What is your favorite memory of Christmases past?",
-  "What is the most outrageous thing you've done for God?",
+  "Why do you live in the Northwest (or if you are from out of town what attracted you to Seattle",
+  "What is your favorite memory of holidays past?",
+  "What is the most outrageous thing you've done?",
   "If a movie was being made of your life and you could choose the actor/actress to play you, who would you choose and why?",
   "Paper or plastic?",
   "What was the weirdest food you've ever eaten?",
@@ -38,13 +41,9 @@ questions = [ "What is your favorite food?",
   "If you were given 24 hrs to live, what would you do?",
   "If you were in the \"Miss America\" talent competition, what would your talent be? (Note: both guys & gals have to answer this question)",
   "What do you think the most ultimate gift of the world is.",
-  "Tell something that nobody in the group knows about you.",
   "What is your earliest childhood memory?",
-  "What was your favorite TV show when you were growing up? (used September 19, 1999)",
+  "What was your favorite TV show when you were growing up?",
   "If you had one extra hour of free time a day, how would you use it?",
-  "What CD is in your CD player right now?",
-  "The great theologian Andy Warhol stated that everyone gets 15 minutes of fame.  What happened during your 15 minutes?"]
-25.times do |person|
-  puts questions[rand(questions.length+1)]
-  gets
-end
+  "What music is in your ipod or CD player right now?",
+  "Andy Warhol stated that everyone gets 15 minutes of fame. What happened during your 15 minutes?"]
+puts questions.sample
