@@ -45,5 +45,7 @@ questions = [ "What is your favorite food?",
   "What was your favorite TV show when you were growing up?",
   "If you had one extra hour of free time a day, how would you use it?",
   "What music is in your ipod or CD player right now?",
-  "Andy Warhol stated that everyone gets 15 minutes of fame. What happened during your 15 minutes?"]
+  "Andy Warhol stated that everyone gets 15 minutes of fame. What happened during your 15 minutes?",
+  "Which is your favorite city and/or country you've traveled to?",
+  "Tell us one goal that you'd like to achieve this year?"]
 puts questions.sample
