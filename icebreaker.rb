@@ -47,11 +47,11 @@ questions = [ "What is your favorite food?",
   "What music is in your ipod or CD player right now?",
   "Andy Warhol stated that everyone gets 15 minutes of fame. What happened during your 15 minutes?",
   "Which is your favorite city and/or country you've traveled to?",
-  "Tell us one goal that you'd like to achieve this year?"
-  "What is the most amazing book you've read, and why?"
-  "If you could travel to any country, without restrictions or safety/security issues, where would you go and why?" 
-  "Are you a dog person or a cat person? Or none?"
-  "How do you drink your coffee?" 
-  "What is your favorite communication medium"
+  "Tell us one goal that you'd like to achieve this year?",
+  "What is the most amazing book you've read, and why?",
+  "If you could travel to any country, without restrictions or safety/security issues, where would you go and why?",
+  "Are you a dog person or a cat person? Or none?",
+  "How do you drink your coffee?",
+  "What is your favorite communication medium",
   "Assuming you don't work at home, what is your favorite means of transportation to get to work?" ]
 puts questions.sample
