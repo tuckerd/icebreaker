@@ -29,7 +29,7 @@ questions = [ "What is your favorite food?",
   "If you were to get a tattoo, what would it say or what would the graphic be?",
   "If you could play any musical instrument, what would it be and why? If you already play an instrument(s), what do you play and why?",
   "When trick-or-treating as a kid, was there any kind of candy that you didn't like to get?",
-  "Why do you live in the Northwest (or if you are from out of town what attracted you to Seattle",
+  "Why do you live in the Northwest (or if you are from out of town what attracted you to Seattle)",
   "What is your favorite memory of holidays past?",
   "What is the most outrageous thing you've done?",
   "If a movie was being made of your life and you could choose the actor/actress to play you, who would you choose and why?",
@@ -47,5 +47,8 @@ questions = [ "What is your favorite food?",
   "What music is in your ipod or CD player right now?",
   "Andy Warhol stated that everyone gets 15 minutes of fame. What happened during your 15 minutes?",
   "Which is your favorite city and/or country you've traveled to?",
-  "Tell us one goal that you'd like to achieve this year?"]
+  "Tell us one goal that you'd like to achieve this year?"
+  "What is the most amazing book you've read, and why?"
+  "If you could travel to any country, without restrictions or security issues, where would you go and why?" 
+  "Are you a dog person or a cat person? Or none?"]
 puts questions.sample
