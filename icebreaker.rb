@@ -47,5 +47,11 @@ questions = [ "What is your favorite food?",
   "What music is in your ipod or CD player right now?",
   "Andy Warhol stated that everyone gets 15 minutes of fame. What happened during your 15 minutes?",
   "Which is your favorite city and/or country you've traveled to?",
-  "Tell us one goal that you'd like to achieve this year?"]
+  "Tell us one goal that you'd like to achieve this year?",
+  "If you had to pick a song which would be played every time you entered a room, what would it be?",
+  "If you could have a super power, what would it be?",
+  "If you could hear what someone was thinking for a day, who would you choose?",
+  "If you had to be trapped in a TV show for a month, which one would it be?",
+  "Why did the chicken cross the road?",
+  "If given the chance, who would like to be for a day?"]
 puts questions.sample
