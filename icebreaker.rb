@@ -53,5 +53,11 @@ questions = [ "What is your favorite food?",
   "Are you a dog person or a cat person? Or none?",
   "How do you drink your coffee?",
   "What is your favorite communication medium",
-  "Assuming you don't work at home, what is your favorite means of transportation to get to work?" ]
+  "Assuming you don't work at home, what is your favorite means of transportation to get to work?",
+  "If you had to pick a song which would be played every time you entered a room, what would it be?",
+  "If you could have a super power, what would it be?",
+  "If you could hear what someone was thinking for a day, who would you choose?",
+  "If you had to be trapped in a TV show for a month, which one would it be?",
+  "Why did the chicken cross the road?",
+  "If given the chance, who would like to be for a day?"]
 puts questions.sample
