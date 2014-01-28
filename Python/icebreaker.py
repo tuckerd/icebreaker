@@ -22,7 +22,11 @@ with open(questions_filename, 'r') as questions:
 
 
 def ask_questions(silly=False):
-    """ask five questions, for in common, one randomly selected"""
+    """ask five questions, four in common, one randomly selected
+    
+    If the keyword argument `silly` is True, use the holy grail questions
+    instead
+    """
     shared = common
     if silly:
         shared = grail_seekers
